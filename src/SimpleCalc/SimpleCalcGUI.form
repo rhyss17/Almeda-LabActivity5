@@ -33,7 +33,7 @@
                   <text value="1st Number"/>
                 </properties>
               </component>
-              <component id="49a0e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+              <component id="49a0e" class="javax.swing.JTextField" binding="tfNumber1">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -45,7 +45,7 @@
               </component>
             </children>
           </grid>
-          <component id="9d5c3" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+          <component id="9d5c3" class="javax.swing.JComboBox" binding="cbOperations">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -70,7 +70,7 @@
                   <text value="2nd Number"/>
                 </properties>
               </component>
-              <component id="c7d99" class="javax.swing.JTextField" default-binding="true">
+              <component id="c7d99" class="javax.swing.JTextField" binding="tfNumber2">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -99,7 +99,7 @@
                   <text value="Result"/>
                 </properties>
               </component>
-              <component id="36524" class="javax.swing.JTextField" default-binding="true">
+              <component id="36524" class="javax.swing.JTextField" binding="lblResult">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="150" height="-1"/>
@@ -141,7 +141,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="774fe" class="javax.swing.JButton" binding="computeResultButton" default-binding="true">
+          <component id="774fe" class="javax.swing.JButton" binding="btnCompute">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
