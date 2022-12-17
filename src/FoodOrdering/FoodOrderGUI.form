@@ -30,7 +30,7 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
             </constraints>
           </vspacer>
-          <component id="62c3" class="javax.swing.JCheckBox" binding="pizzaCheckBox" default-binding="true">
+          <component id="62c3" class="javax.swing.JCheckBox" binding="cPizza">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -44,7 +44,7 @@
               <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
             </constraints>
           </vspacer>
-          <component id="34323" class="javax.swing.JCheckBox" default-binding="true">
+          <component id="34323" class="javax.swing.JCheckBox" binding="cBurger">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -53,7 +53,7 @@
               <text value="Burger"/>
             </properties>
           </component>
-          <component id="2ecc9" class="javax.swing.JCheckBox" default-binding="true">
+          <component id="2ecc9" class="javax.swing.JCheckBox" binding="cFries">
             <constraints>
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -62,7 +62,7 @@
               <text value="Fries"/>
             </properties>
           </component>
-          <component id="e262e" class="javax.swing.JCheckBox" default-binding="true">
+          <component id="e262e" class="javax.swing.JCheckBox" binding="cSoftDrinks">
             <constraints>
               <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -71,7 +71,7 @@
               <text value="Soft Drinks"/>
             </properties>
           </component>
-          <component id="16b27" class="javax.swing.JCheckBox" default-binding="true">
+          <component id="16b27" class="javax.swing.JCheckBox" binding="cTea">
             <constraints>
               <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -80,9 +80,9 @@
               <text value="Tea"/>
             </properties>
           </component>
-          <component id="d4ba6" class="javax.swing.JCheckBox" default-binding="true">
+          <component id="d4ba6" class="javax.swing.JCheckBox" binding="cSundae">
             <constraints>
-              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
             </constraints>
             <properties>
               <font size="26"/>
@@ -172,7 +172,7 @@
               <text value="Discount"/>
             </properties>
           </component>
-          <component id="3a74f" class="javax.swing.JRadioButton" binding="noneRadioButton" default-binding="true">
+          <component id="3a74f" class="javax.swing.JRadioButton" binding="rbNone">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -181,7 +181,7 @@
               <text value="None"/>
             </properties>
           </component>
-          <component id="97d65" class="javax.swing.JRadioButton" default-binding="true">
+          <component id="97d65" class="javax.swing.JRadioButton" binding="rb5">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -190,7 +190,7 @@
               <text value="5% Off"/>
             </properties>
           </component>
-          <component id="aa6ea" class="javax.swing.JRadioButton" default-binding="true">
+          <component id="aa6ea" class="javax.swing.JRadioButton" binding="rb10">
             <constraints>
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -199,7 +199,7 @@
               <text value="10% Off"/>
             </properties>
           </component>
-          <component id="a042b" class="javax.swing.JRadioButton" default-binding="true">
+          <component id="a042b" class="javax.swing.JRadioButton" binding="rb15">
             <constraints>
               <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -228,7 +228,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="8c148" class="javax.swing.JButton" binding="orderButton" default-binding="true">
+          <component id="8c148" class="javax.swing.JButton" binding="btnOrder">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
